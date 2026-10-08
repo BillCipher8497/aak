@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arvin Karve — Engineer, Educator, Pianist</title>
+  <meta name="description" content="Arvin Karve — software engineer, educator, pianist, and dancer. NCSSM '27.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="#top">AK/</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">MENU</button>
+    <nav id="nav" class="nav">
+      <a href="#work">01 Work</a>
+      <a href="#research">02 Research</a>
+      <a href="#teaching">03 Teaching</a>
+      <a href="#art">04 Art</a>
+      <a href="#about">05 About</a>
+      <a href="#contact">06 Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <p class="hero__meta">WILMINGTON, NC &nbsp;/&nbsp; NCSSM &nbsp;/&nbsp; <span id="clock">--:--</span> ET</p>
+      <h1 class="hero__name">ARVIN<br>KARVE</h1>
+      <p class="hero__thesis">I build software where security meets education access — and I play piano and dance when I'm not coding.</p>
+      <ul class="hero__tags" aria-label="Roles">
+        <li>SOFTWARE ENGINEER</li>
+        <li>EDUCATOR</li>
+        <li class="tag--hot">PIANIST</li>
+        <li class="tag--hot">DANCER</li>
+      </ul>
+      <div class="hero__proof">
+        <a href="#work" class="block-link">SHIPPED CODE →</a>
+        <a href="#teaching" class="block-link">TEACHING →</a>
+        <a href="#art" class="block-link block-link--hot">WATCH ME PLAY →</a>
+      </div>
+    </section>
+
+    <!-- ============ 01 WORK ============ -->
+    <section class="section" id="work">
+      <header class="section__head">
+        <span class="section__num">01</span>
+        <h2>Work</h2>
+      </header>
+
+      <article class="case">
+        <div class="case__label">
+          <p class="case__org"><a href="https://www.core-defenses.com/" target="_blank" rel="noopener">CORE DEFENSES ↗</a></p>
+          <p class="case__role">Software Engineer — ENADOX Team</p>
+        </div>
+        <div class="case__body">
+          <h3>Image ENADOX — shipped to production</h3>
+          <p><a href="https://www.core-defenses.com/" target="_blank" rel="noopener">Core Defenses</a> builds data solutions for critical infrastructure. ENADOX is its self-healing data protection layer: it embeds redundancy into the data itself, so communications stay resilient across autonomous systems and in contested, degraded environments.</p>
+          <dl class="spec">
+            <dt>Pipeline</dt><dd>Built the pipeline that generates or accepts a photo and embeds protected data inside it, with resilience built into the data itself</dd>
+            <dt>App</dt><dd>Built the Android app that embeds one photo inside another and outputs the result as a multi-QR sequence for layered protection</dd>
+            <dt>Video</dt><dd>Built a secure video platform that ENADOXes live audio and video, embedding them into protected layers to keep real-time video conferencing safe</dd>
+            <dt>Built for</dt><dd>Engineered for critical infrastructure and contested, degraded environments</dd>
+            <dt>Outcome</dt><dd>Shipped into a production app</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case__label">
+          <p class="case__org"><a href="https://hexadecimalforest.com/" target="_blank" rel="noopener">HEXADECIMAL FOREST ↗</a></p>
+          <p class="case__role">Co-founder</p>
+        </div>
+        <div class="case__body">
+          <h3>Pro bono websites for nonprofits</h3>
+          <p>Hexadecimal Forest builds websites for organizations doing real work — clinics, environmental and conservation groups, and arts and education nonprofits — across Africa, Europe, Asia, and America.</p>
+          <a class="block-link" href="https://hexadecimalforest.com/" target="_blank" rel="noopener">SEE ALL ON THE HDF WEBSITE →</a>
+        </div>
+        <div class="grid-3">
+          <figure class="shot">
+            <img class="ph ph--contain ph--screenshot" src="images/ngero.png" alt="NGERO — Nyanza Gulf Ecosystem Restoration Organization, a site for an environmental nonprofit on the Lake Victoria basin in Kenya">
+            <figcaption>NGERO — Lake Victoria Basin, Kenya</figcaption>
+          </figure>
+          <figure class="shot">
+            <img class="ph ph--contain ph--screenshot" src="images/peneza.png" alt="Peneza Hospital, a site for a 24-hour patient-centered healthcare facility in Rongo, Kenya">
+            <figcaption>Peneza Hospital — Rongo, Kenya</figcaption>
+          </figure>
+          <figure class="shot">
+            <img class="ph ph--contain ph--screenshot" src="images/kalavaibhav.png" alt="Kalavaibhav Sevabhavi Sanstha, a site for an arts and hobby nonprofit for differently-abled individuals in Pune, India">
+            <figcaption>Kalavaibhav — Pune, India</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case__label">
+          <p class="case__org"><a href="https://www.binarytree.us/" target="_blank" rel="noopener">BINARYTREE ↗</a></p>
+          <p class="case__role">Director of International Partnerships and Education</p>
+        </div>
+        <div class="case__body">
+          <h3>Digital education for underserved communities</h3>
+          <p>Worked to build partnerships with schools and organizations abroad and taught live sessions, alongside helping build the <a href="https://binarytree-learning.vercel.app/" target="_blank" rel="noopener">Binary Tree learning platform ↗</a> — offline-ready courses in digital literacy, programming, professional skills, and entrepreneurship, taught in English, Kiswahili, and French for classrooms with shared devices and unreliable internet.</p>
+          <ul class="stats">
+            <li><b>12+</b><span>partner organizations</span></li>
+            <li><b>5</b><span>countries</span></li>
+          </ul>
+          <a class="block-link" href="https://binarytree-learning.vercel.app/" target="_blank" rel="noopener">TRY THE LEARNING PLATFORM →</a>
+        </div>
+        <div class="grid-2">
+          <figure class="shot">
+            <img class="ph ph--contain" src="images/binarytree-partner-map.png" alt="World map highlighting the countries where Binary Tree operates, including the United States, Senegal, Ghana, Egypt, Uganda, Kenya, Tanzania, Zambia, and Vietnam">
+            <figcaption>Where Binary Tree operates</figcaption>
+          </figure>
+          <figure class="shot">
+            <img class="ph ph--contain" src="images/binarytree-teaching.png" alt="Screenshot of a live Binary Tree class Arvin taught, screen-sharing a Microsoft Access database with student webcams visible">
+            <figcaption>Teaching a live class</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case__label">
+          <p class="case__org">FRC ROBOTICS</p>
+          <p class="case__role">Electrical Lead &amp; Safety Captain</p>
+        </div>
+        <div class="case__body">
+          <h3>Mind Over Metal → Zebracorns</h3>
+          <p>Worked across the electrical and mechanical sides of the robot on Mind Over Metal, serving as electrical lead and safety captain, before joining the Zebracorns.</p>
+        </div>
+        <div class="grid-3">
+          <img class="ph ph--photo ph--square" src="images/robotics1.jpeg" alt="Arvin in a team jersey holding awards in front of a FIRST North Carolina backdrop" loading="lazy">
+          <img class="ph ph--photo ph--square" src="images/robotics2.jpeg" alt="Arvin and a teammate in safety glasses holding a heat gun and wire cutters" loading="lazy">
+          <img class="ph ph--photo ph--square" src="images/robotics3.jpeg" alt="Arvin riveting an aluminum robot chassis in the workshop while teammates and mentors look on" loading="lazy">
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ 02 RESEARCH ============ -->
+    <section class="section" id="research">
+      <header class="section__head">
+        <span class="section__num">02</span>
+        <h2>Research</h2>
+      </header>
+      <article class="case">
+        <div class="case__label">
+          <p class="case__org">DATA SCI × SEMICONDUCTOR</p>
+          <p class="case__role">Software Engineer</p>
+        </div>
+        <div class="case__body">
+          <h3>Semiconductor Reliability &amp; Defect Analysis</h3>
+          <p>Purdue-affiliated research for NSF FuSe, contracting through <a href="https://www.core-defenses.com/" target="_blank" rel="noopener">Core Defenses</a>. Built tools for solder-ball deformation and void analysis on CT scans, tracking how ball geometry and internal voids shift as parts go through thermal cycling. Solder joint failures can take down critical infrastructure hardware, so catching this early keeps systems reliable.</p>
+        </div>
+        <div class="grid-3">
+          <img class="ph ph--contain" src="images/solder-height.png" alt="Cross-section CT image of a BGA solder ball with an overlay marking its top, base, and void centroid to measure fractional height">
+          <img class="ph ph--contain" src="images/solder-strip-capture.png" alt="Comparison of void centroid position within a solder ball before and after thermal cycling, plotted by height and horizontal shift">
+          <img class="ph ph--contain" src="images/solder-void-deform.png" alt="CT scan void-contour snapshots comparing a solder ball before and after thermal cycling, with contour and centroid-shift overlays">
+        </div>
+        <img class="ph ph--wide ph--contain" src="images/solder-metric-trends.png" alt="Line chart of combined RMS deviation across solder ball samples at increasing thermal cycle counts, with a quadratic trend fit through the per-cycle means">
+      </article>
+
+      <article class="case">
+        <div class="case__label">
+          <p class="case__org">AI × NUCLEAR</p>
+          <p class="case__role">AIRES Workshop</p>
+        </div>
+        <div class="case__body">
+          <h3>AI Validation and Extension of a Classical Reactor-Dynamics Paper</h3>
+          <p>[ Abstract — 2–3 sentences ]</p>
+          <p class="mono-note">Mentor: Rizwan Uddin, UIUC &nbsp;·&nbsp; Status: [ in preparation ]</p>
+        </div>
+        <img class="ph ph--contain ph--fig" src="images/nuclear1.png" alt="Two plots: the first Lyapunov coefficient split into competing mean-shift and second-harmonic channels, and their balance ratio crossing unity twice" loading="lazy">
+        <img class="ph ph--contain ph--fig" src="images/nuclear2.png" alt="Three-panel analysis of two Bautin points: the first Lyapunov coefficient crossing zero, fold limit-cycle amplitudes on each side, and one branch's amplitude diverging" loading="lazy">
+      </article>
+    </section>
+
+    <!-- ============ 03 TEACHING ============ -->
+    <section class="section" id="teaching">
+      <header class="section__head">
+        <span class="section__num">03</span>
+        <h2>Teaching</h2>
+      </header>
+      <ul class="stats stats--big">
+        <li><b>100+</b><span>hours tutoring on Schoolhouse.world</span></li>
+        <li><b>22</b><span>countries</span></li>
+      </ul>
+      <div class="grid-3">
+        <a class="card" href="#">
+          <span class="card__kicker">EXPLAINER 01</span>
+          <span class="card__title">Partial Derivatives</span>
+          <p class="card__note">How a function changes along one variable at a time, holding the rest fixed — the building block behind gradients and optimization.</p>
+        </a>
+        <a class="card" href="#">
+          <span class="card__kicker">EXPLAINER 02</span>
+          <span class="card__title">Chirality</span>
+          <p class="card__note">Why some molecules are mirror images that can't be superimposed on each other — and why that difference alone can change how a drug works in the body.</p>
+        </a>
+        <a class="card" href="#">
+          <span class="card__kicker">EXPLAINER 03</span>
+          <span class="card__title">Bubble Sort</span>
+          <p class="card__note">The simplest sorting algorithm there is: walk the list, swap any neighbors that are out of order, and repeat until nothing's left to swap.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ 04 ART ============ -->
+    <section class="art" id="art">
+      <header class="section__head section__head--inv">
+        <span class="section__num">04</span>
+        <h2>Art</h2>
+      </header>
+
+      <div class="marquee" aria-hidden="true">
+        <span>PIANO ✦ DANCE ✦ PIANO ✦ DANCE ✦ PIANO ✦ DANCE ✦ PIANO ✦ DANCE ✦&nbsp;</span>
+        <span>PIANO ✦ DANCE ✦ PIANO ✦ DANCE ✦ PIANO ✦ DANCE ✦ PIANO ✦ DANCE ✦&nbsp;</span>
+      </div>
+
+      <!-- PIANO: the lead feature -->
+      <article class="piano">
+        <div class="piano__intro">
+          <p class="kicker">4A — PIANO</p>
+          <h3 class="piano__title">10+ years<br>at the keys.</h3>
+          <p>Classical pianist. Guild State &amp; National recognition. [ Add a line on what playing means to you ]</p>
+          <ul class="repertoire">
+            <li><span>Chopin</span><span>Nocturne in C# minor</span></li>
+            <li><span>Grieg</span><span>Puck</span></li>
+            <li><span>Beethoven</span><span>Moonlight Sonata, Mvt. 3</span></li>
+          </ul>
+        </div>
+        <figure class="shot piano__feature">
+          <div class="ph ph--video ph--feature ph--embed">
+            <button class="yt" type="button" data-id="1nbGYlQtk9M" aria-label="Play: Arvin performing Chopin, Nocturne in C# minor"><img src="https://i.ytimg.com/vi/1nbGYlQtk9M/hqdefault.jpg" alt="" loading="lazy"><span class="yt__play" aria-hidden="true">▶</span></button>
+          </div>
+          <figcaption>Featured — Chopin, Nocturne in C# minor</figcaption>
+        </figure>
+        <div class="grid-3 piano__more">
+          <figure class="shot">
+            <div class="ph ph--video ph--embed">
+              <button class="yt" type="button" data-id="xvgGn9aEFKQ" aria-label="Play: Young Arvin playing Beethoven, Für Elise"><img src="https://i.ytimg.com/vi/xvgGn9aEFKQ/hqdefault.jpg" alt="" loading="lazy"><span class="yt__play" aria-hidden="true">▶</span></button>
+            </div>
+            <figcaption>Young Arvin — Beethoven, Für Elise</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="ph ph--video ph--embed">
+              <button class="yt" type="button" data-id="26hifQ2WsoM" aria-label="Play: Arvin learning Beethoven, Moonlight Sonata, 3rd movement"><img src="https://i.ytimg.com/vi/26hifQ2WsoM/hqdefault.jpg" alt="" loading="lazy"><span class="yt__play" aria-hidden="true">▶</span></button>
+            </div>
+            <figcaption>Learning — Moonlight Sonata, Mvt. 3</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="ph ph--video ph--embed">
+              <button class="yt" type="button" data-id="qK2Okp5hEVM" aria-label="Play: Arvin performing Grieg, Puck"><img src="https://i.ytimg.com/vi/qK2Okp5hEVM/hqdefault.jpg" alt="" loading="lazy"><span class="yt__play" aria-hidden="true">▶</span></button>
+            </div>
+            <figcaption>Performance — Grieg, Puck</figcaption>
+          </figure>
+        </div>
+        <ul class="awards" aria-label="Concerts">
+          <li>Piano Guild Nationals</li>
+          <li>Elder Homes</li>
+          <li>Local Performances</li>
+        </ul>
+      </article>
+
+      <!-- DANCE -->
+      <article class="dance">
+        <div class="dance__intro">
+          <p class="kicker">4B — SAATH DANCE</p>
+          <h3 class="dance__title">Bhangra.<br>Bollywood.<br>Kuthu.</h3>
+          <p>Junior leader, then senior leader, in SAATH, performing at school and cultural events. [ Add a line about the team / choreography ]</p>
+        </div>
+        <div class="grid-2">
+          <div class="ph ph--video ph--light ph--embed dance__video">
+            <button class="yt" type="button" data-id="LgGDkMecDhY" aria-label="Play: SAATH performing at Asia Fest"><img src="https://i.ytimg.com/vi/LgGDkMecDhY/hqdefault.jpg" alt="" loading="lazy"><span class="yt__play" aria-hidden="true">▶</span></button>
+          </div>
+          <img class="ph ph--light ph--photo" src="images/teampic.jpeg" alt="The SAATH dance team posing together in matching black and gold jerseys" loading="lazy">
+          <img class="ph ph--light ph--photo" src="images/teamstage.PNG" alt="SAATH performing on stage in front of a blue backdrop, arms raised in formation" loading="lazy">
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ 05 ABOUT ============ -->
+    <section class="section" id="about">
+      <header class="section__head">
+        <span class="section__num">05</span>
+        <h2>About</h2>
+      </header>
+      <div class="about">
+        <img class="ph ph--portrait ph--photo" src="images/portrait.jpg" alt="Portrait of Arvin">
+        <div>
+          <p class="lede">I was born and raised to be a builder. Whatever tools are in front of me — code, circuits, a rivet gun — I use them to make cool stuff that actually works.</p>
+          <p>Right now that means computer science and software engineering, along with computer and electrical engineering. The next step is taking what I build further, into startups and business ventures of my own.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <header class="section__head">
+        <span class="section__num">06</span>
+        <h2>Contact</h2>
+      </header>
+      <div class="contact__links">
+        <a class="block-link" href="mailto:arvin.karve@gmail.com">EMAIL →</a>
+        <a class="block-link" href="#">RESUME (PDF) →</a>
+        <a class="block-link" href="https://www.linkedin.com/in/arvin-karve-b70974315/" target="_blank" rel="noopener">LINKEDIN →</a>
+        <a class="block-link" href="https://github.com/BillCipher8497" target="_blank" rel="noopener">GITHUB →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> ARVIN KARVE</p>
+    <p>HAND-WRITTEN HTML/CSS/JS. NO FRAMEWORKS.</p>
+    <a href="#top">TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
