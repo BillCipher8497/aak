@@ -138,6 +138,7 @@ p { margin: 0 0 1rem; }
 .stats b { font-family: var(--display); font-weight: 400; font-size: 2rem; line-height: 1; }
 .stats span { font-size: .8rem; }
 .stats--big { margin-bottom: 2rem; }
+.teach-link { margin-bottom: 2.5rem; }
 .stats--big b { font-size: clamp(3rem, 9vw, 6rem); color: var(--blue); }
 
 .mono-note { font-size: .85rem; color: var(--ink-soft); }
@@ -183,7 +184,7 @@ p { margin: 0 0 1rem; }
   box-shadow: var(--shadow);
   transition: transform .08s, box-shadow .08s, background .08s;
 }
-.card:hover { transform: translate(8px, 8px); box-shadow: 0 0 0 var(--ink); background: var(--blue); color: var(--paper); }
+a.card:hover { transform: translate(8px, 8px); box-shadow: 0 0 0 var(--ink); background: var(--blue); color: var(--paper); }
 .card__kicker { font-size: .75rem; font-weight: 600; }
 .card__note { font-size: .9rem; line-height: 1.4; margin-top: .4rem; }
 .card__title { font-family: var(--display); font-size: 1.5rem; line-height: 1.05; }
